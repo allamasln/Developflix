@@ -1,18 +1,30 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 .genero-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
 }
 
+.genero {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
 
+.card {
+	width: 200px;
+}
+
+.card__image {
+	width: inherit;
+}
